@@ -1,0 +1,326 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Spotify_logo.png",
+    "title": "Spotify",
+    "companyName": "Spotify Ltd.",
+    "id": 301,
+    "description": "Music streaming with personalized playlists, podcasts, and more.",
+    "size": 99.7,
+    "reviews": 1450000,
+    "ratingAvg": 4.7,
+    "downloads": 3500000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 75000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1025000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Dropbox_logo_2015.svg",
+    "title": "Dropbox",
+    "companyName": "Dropbox, Inc.",
+    "id": 302,
+    "description": "File storage and sharing in the cloud with sync across devices.",
+    "size": 80.4,
+    "reviews": 500000,
+    "ratingAvg": 4.3,
+    "downloads": 800000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 215000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Telegram_logo.svg",
+    "title": "Telegram",
+    "companyName": "Telegram Messenger Inc.",
+    "id": 303,
+    "description": "Secure messaging, voice & video calls, and group chats.",
+    "size": 65.2,
+    "reviews": 900000,
+    "ratingAvg": 4.5,
+    "downloads": 1400000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 540000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Zoom_Communications_Logo.svg",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 304,
+    "description": "Video conferencing, webinars, and online meetings.",
+    "size": 85.8,
+    "reviews": 1200000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 580000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Google_Play_Store_icon_%282016%29.png",
+    "title": "Google Play Store",
+    "companyName": "Google LLC",
+    "id": 305,
+    "description": "Android app store: discover and download apps, games, books, and more.",
+    "size": 50.3,
+    "reviews": 2300000,
+    "ratingAvg": 4.6,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 1280000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Slack_logo.png",
+    "title": "Slack",
+    "companyName": "Slack Technologies, Inc.",
+    "id": 306,
+    "description": "Team collaboration, messaging, and productivity tools.",
+    "size": 55.9,
+    "reviews": 700000,
+    "ratingAvg": 4.4,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 405000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/Reddit_logo_new.svg",
+    "title": "Reddit",
+    "companyName": "Reddit, Inc.",
+    "id": 307,
+    "description": "Social news aggregation, content rating, and discussion.",
+    "size": 45.1,
+    "reviews": 600000,
+    "ratingAvg": 4.2,
+    "downloads": 800000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 75000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 250000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Skype_logo_2020.svg",
+    "title": "Skype",
+    "companyName": "Microsoft Corporation",
+    "id": 308,
+    "description": "Video & voice calls, chat, and screen sharing.",
+    "size": 70.7,
+    "reviews": 550000,
+    "ratingAvg": 4.0,
+    "downloads": 700000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 260000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Adobe_AIR_logo.png",
+    "title": "Adobe Acrobat Reader",
+    "companyName": "Adobe Inc.",
+    "id": 309,
+    "description": "Read, annotate, and sign PDF documents on mobile.",
+    "size": 60.0,
+    "reviews": 620000,
+    "ratingAvg": 4.3,
+    "downloads": 900000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 220000 },
+      { "name": "5 star", "count": 270000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tinder_logo.svg",
+    "title": "Tinder",
+    "companyName": "Match Group, Inc.",
+    "id": 310,
+    "description": "Swipe to match with new people nearby.",
+    "size": 50.9,
+    "reviews": 880000,
+    "ratingAvg": 3.9,
+    "downloads": 400000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 250000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Pinterest_logo.svg",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "id": 311,
+    "description": "Discover and save creative ideas with pins and boards.",
+    "size": 52.5,
+    "reviews": 450000,
+    "ratingAvg": 4.1,
+    "downloads": 600000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 230000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/Dropbox_icon_2015.png",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "id": 312,
+    "description": "Store files and access them from any device securely.",
+    "size": 72.8,
+    "reviews": 780000,
+    "ratingAvg": 4.5,
+    "downloads": 1200000000,
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 440000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/Yahoo%21_Messenger_Logo.svg",
+    "title": "Yahoo Mail",
+    "companyName": "Yahoo Inc.",
+    "id": 313,
+    "description": "Email service with large storage, news, and integration.",
+    "size": 48.4,
+    "reviews": 300000,
+    "ratingAvg": 3.8,
+    "downloads": 400000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/92/Google_Maps_logo_%282014-2020%29.svg",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 314,
+    "description": "Navigate, explore places, traffic, transit, and local info.",
+    "size": 115.3,
+    "reviews": 2000000,
+    "ratingAvg": 4.6,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 1400000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Google_Translate_logo.svg",
+    "title": "Google Translate",
+    "companyName": "Google LLC",
+    "id": 315,
+    "description": "Translate text, speech, and images instantly between languages.",
+    "size": 88.2,
+    "reviews": 1500000,
+    "ratingAvg": 4.4,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 1090000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Walmart_logo.svg",
+    "title": "Walmart",
+    "companyName": "Walmart Inc.",
+    "id": 316,
+    "description": "Online shopping, groceries, deals, and store finder.",
+    "size": 95.0,
+    "reviews": 400000,
+    "ratingAvg": 4.2,
+    "downloads": 800000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 195000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Shopify_logo.svg",
+    "title": "Shopify",
+    "companyName": "Shopify Inc.",
+    "id": 317,
+    "description": "Build your online store, manage products, sales, and customers.",
+    "size": 60.6,
+    "reviews": 350000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 145000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/PayPal_logo.svg",
+    "title": "PayPal",
+    "companyName": "PayPal Holdings, Inc.",
+    "id": 318,
+    "description": "Send and receive money, pay bills, and manage finances.",
+    "size": 45.8,
+    "reviews": 800000,
+    "ratingAvg": 4.5,
+    "downloads": 900000000,
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 350000 },
+      { "name": "5 star", "count": 345000 }
+    ]
+  }
+]
