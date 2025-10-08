@@ -31,7 +31,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a href="https://github.com/istiaquerijve/b12-a8"><a className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2]">Contribute</a></a>
+    <a href="https://github.com/istiaquerijve/b12-a8"><button className='btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2]'>Contribute</button></a>
   </div>
 </div>
     );
