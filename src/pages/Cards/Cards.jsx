@@ -16,6 +16,7 @@ const Cards = ({data}) => {
                     }
                 </div>
             </Suspense>
+            <button className='btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white justify-center items-center ml-150 mt-20 mb-20'>Show All</button>
         </div>
     );
 };

@@ -1,10 +1,11 @@
 import React from 'react';
 import logo from "../../assets/logo.png"
+import { Link } from 'react-router';
 
 const Navbar = () => {
     const links = <>
-        <li className='mr-3'>Home</li>
-        <li  className='mr-3'>Apps</li>
+        <Link to="/"><li className='mr-3'>Home</li></Link>
+        <Link to="/apps"><li  className='mr-3'>Apps</li></Link>
         <li>Installation</li>
 
     </>
@@ -22,7 +23,7 @@ const Navbar = () => {
         {links}
       </ul>
     </div>
-    <img className='w-10' src={logo} alt="" />
+    <Link to="/"><img className='w-10' src={logo} alt="" /></Link>
     <a className="btn btn-ghost text-xl text-purple-500 font-bold">HERO.IO</a>
   </div>
   <div className="navbar-center hidden lg:flex">
@@ -31,7 +32,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a href="https://github.com/istiaquerijve/b12-a8"><button className='btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2]'>Contribute</button></a>
+    <a href="https://github.com/istiaquerijve/b12-a8"><button className='btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white'>Contribute</button></a>
   </div>
 </div>
     );
