@@ -10,7 +10,7 @@ const CardDetail = () => {
     const data = useLoaderData();
     const singleData = data?.find(card => card.id === cardId);
     console.log(singleData);
-    const {image, description, downloads, companyName, size, title, reviews, ratingAvg} = singleData
+    const {image, description, downloads, companyName, size, title, reviews, ratingAvg} = singleData;
 
     return (
         <div className='mt-20 p-36 '>

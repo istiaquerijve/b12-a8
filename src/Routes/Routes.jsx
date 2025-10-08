@@ -5,6 +5,7 @@ import Error from '../pages/Error/Error';
 import Home from '../pages/Home/Home';
 import Apps from '../pages/Apps/Apps';
 import CardDetail from '../pages/CardDetail/CardDetail';
+import AppDetail from '../pages/AppDetail/AppDetail';
 
 export  const router = createBrowserRouter([
   {
@@ -18,14 +19,22 @@ export  const router = createBrowserRouter([
             loader: () => fetch("/card.json"),
             Component: Home,
         },
-        {
-          path: "/apps",
-          Component: Apps
-        },
+        
         {
           path: "/cardDetail/:id",
           loader: () => fetch("/card.json"),
           Component: CardDetail,
+        },
+
+        {
+          path: "/apps",
+          loader: () => fetch("/app.json"),
+          Component: Apps,
+        },
+        {
+          path: "/appDetail/:id",
+          loader: () => fetch("/app.json"),
+          Component: AppDetail,
         }
     ]
   },
