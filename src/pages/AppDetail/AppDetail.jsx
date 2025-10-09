@@ -4,6 +4,7 @@ import download from "../../assets/icon-downloads.png"
 import rating from "../../assets/icon-ratings.png"
 import review from "../../assets/icon-review.png"
 import { addToStorDB } from '../utility/addToDB';
+import { ToastContainer, toast } from 'react-toastify';
 
 const AppDetail = () => {
     const {id} = useParams();
@@ -16,6 +17,7 @@ const AppDetail = () => {
     // -------------------------------------------
 
         const handleInstall = (id) => {
+            toast("INSTALLED");
             addToStorDB(id)
         }
 
@@ -58,6 +60,7 @@ const AppDetail = () => {
                    </div>
                     </div>
                    </div>
+                        <ToastContainer />
                         <button onClick={() => handleInstall(id)} className='bg-green-500 text-white text-2xl w-70 h-16 rounded-2xl'>
                             Install Now ({size}) </button>
                     
