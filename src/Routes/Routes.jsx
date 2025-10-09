@@ -6,6 +6,7 @@ import Home from '../pages/Home/Home';
 import Apps from '../pages/Apps/Apps';
 import CardDetail from '../pages/CardDetail/CardDetail';
 import AppDetail from '../pages/AppDetail/AppDetail';
+import Install from '../pages/Install/Install';
 
 export  const router = createBrowserRouter([
   {
@@ -35,6 +36,13 @@ export  const router = createBrowserRouter([
           path: "/appDetail/:id",
           loader: () => fetch("/app.json"),
           Component: AppDetail,
+        },
+
+
+        {
+          path: "/install",
+          loader: () => fetch("/card.json"),
+          Component: Install,
         }
     ]
   },

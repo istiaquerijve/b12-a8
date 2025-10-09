@@ -3,6 +3,7 @@ import { useLoaderData, useParams } from 'react-router';
 import download from "../../assets/icon-downloads.png"
 import rating from "../../assets/icon-ratings.png"
 import review from "../../assets/icon-review.png"
+import { addToStorDB } from '../utility/addToDB';
 
 const CardDetail = () => {
     const {id} = useParams();
@@ -11,6 +12,16 @@ const CardDetail = () => {
     const singleData = data?.find(card => card.id === cardId);
     console.log(singleData);
     const {image, description, downloads, companyName, size, title, reviews, ratingAvg} = singleData;
+
+
+    // -------------------------------------------
+
+        const handleInstall = (id) => {
+            addToStorDB(id)
+        }
+
+
+    // ---------------------------------------------------------
 
     return (
         <div className='mt-20 p-36 '>
@@ -44,7 +55,8 @@ const CardDetail = () => {
            </div>
             </div>
            </div>
-                <button className='bg-green-500 text-white text-2xl w-70 h-16 rounded-2xl'>Install Now ({size}) </button>
+                <button onClick={() => handleInstall(id)} className='bg-green-500 text-white text-2xl w-70 h-16 rounded-2xl'>
+                    Install Now ({size}) </button>
             
             <div className='mt-16'>
                 <h1 className='font-bold text-2xl'>description</h1>
